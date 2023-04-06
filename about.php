@@ -15,7 +15,7 @@
     <form action="check.php" method="post">
         <input type="email" name="email" placeholder="Введите Email" class="form-control"><br>
         <textarea name="message" class="form-control"  placeholder="Введите ваше сообщение"></textarea><br>
-        <button type="submit" name="send" class="btn btn-succes">Отправить нахуй</button>
+        <button type="submit" name="send" class="btn btn-succes">Отправить</button>
     </form>
     </div>
     <?php require "blocks/footer.php"?>
