@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container mt-5">
-    <?php require "blocks/header.php"?>
+    <?php require "../blocks/header.php"?>
     <h3>Контакты</h3>
     <form action="check.php" method="post">
         <input type="email" name="email" placeholder="Введите Email" class="form-control"><br>
@@ -18,6 +18,6 @@
         <button type="submit" name="send" class="btn btn-succes">Отправить</button>
     </form>
     </div>
-    <?php require "blocks/footer.php"?>
+    <?php require "../blocks/footer.php"?>
 </body>
 </html>
